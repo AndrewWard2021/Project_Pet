@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public void NextWeek()
     {
         weekCount+=1;
-        if (weekCount=>52)
+        if (weekCount>=52)
         {
             weekCount = weekCount%52;
             yearCount+=1;
