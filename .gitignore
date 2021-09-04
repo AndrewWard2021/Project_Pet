@@ -56,7 +56,7 @@ Library/
 Logs/
 Packages/
 Temp/
-obj\Debug/
+obj/
 
 #VS Code unnecessary settings
 *.vsconfig
